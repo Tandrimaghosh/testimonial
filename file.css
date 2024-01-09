@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+.head hr{
+    width: 10%; 
+}
+.head p{
+    color: black;
+}
+.container{
+    width: 25%;
+    height: 22%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: white;
+    position: relative;
+    box-shadow: 5px 2px 5px 5px grey;
+}
+
+.photo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    margin-bottom: 20%;
+    box-shadow: 0 2px 2px grey;
+}
+.container p{
+    margin-bottom: 8%;
+    margin-top: 30px;
+    text-align: justify;
+}
+.container h6{
+    text-align: center;
+}
